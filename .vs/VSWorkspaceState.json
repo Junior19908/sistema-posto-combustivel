@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\template",
+    "\\template\\dashboard",
+    "\\template\\dashboard\\pages",
+    "\\template\\dashboard\\pages\\almoxarifado",
+    "\\template\\dashboard\\pages\\almoxarifado\\relatorios"
+  ],
+  "SelectedNode": "\\template\\dashboard\\pages\\almoxarifado\\relatorios\\RelatorioGeralFornecedor.php",
+  "PreviewInSolutionExplorer": false
+}
