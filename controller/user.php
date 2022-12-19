@@ -16,8 +16,8 @@ if ($row1 > 0){
 		$avatar = $sqline['avatar'];
 		$DataCadastro = $sqline['date'];
 		$WellcomeMesage = $sqline['updategsg'];
-		}
 	}
+}
 	
 $queryNavio = mysqli_query($CONNECTIONFATURAMENTO, "SELECT * FROM `tb_booking` WHERE col_status='1'");
 $rowNavio = mysqli_num_rows($queryNavio);

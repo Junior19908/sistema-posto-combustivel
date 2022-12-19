@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 ini_set("display_errors", 0 );
-session_start(); 
+session_start();
 ?>
 <?php require_once '../../../../include/verifica_user.php';?>
 <?php require_once '../../../../class/ligacoes.class.php';?>
@@ -10,7 +10,7 @@ session_start();
 if($type == 1){
 
 }elseif($type == 3){
-    
+
 }else{
   echo'<head>
             <script type="text/javascript">alert("Você não tem autorização!")</script>
@@ -224,6 +224,18 @@ if($type == 1){
                 <a href="#" class="nav-link active">
                 <i class="fas fa-luggage-cart"></i>
                   <p>Liberação de Materiais</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="posicoes/" class="nav-link">
+                <i class="fa solid fa-user-plus"></i>
+                  <p>Criar Posições</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="relatorios/RelatorioGeralFornecedor.php" class="nav-link">
+                <i class="fas fa-file-invoice"></i>
+                  <p>Relatório por Fornecedor</p>
                 </a>
               </li>
               <li class="nav-item">
